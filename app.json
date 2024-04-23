@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.expo.detox"
@@ -21,11 +23,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.expo.detox"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["@config-plugins/detox"]
+    "plugins": [
+      "@config-plugins/detox"
+    ]
   }
 }

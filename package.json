@@ -9,7 +9,10 @@
     "web": "expo start --web",
     "e2e:ios:release:build": "detox build -c ios.release",
     "e2e:ios:release:test": "detox test -c ios.release",
-    "e2e:ios:release:build:test": "detox test -c ios.release && detox test -c ios.release"
+    "e2e:ios:release:build:test": "detox test -c ios.release && detox test -c ios.release",
+    "e2e:android:release:build": "detox build -c android.release",
+    "e2e:android:release:test": "detox test -c android.release",
+    "e2e:android:release:build:test": "detox test -c android.release && detox test -c android.release"
   },
   "dependencies": {
     "expo": "~50.0.14",
